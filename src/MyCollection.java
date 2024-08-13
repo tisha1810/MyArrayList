@@ -7,4 +7,8 @@ public interface MyCollection {
     default boolean remove(String s) {
         return false;
     }
+
+    default boolean contains(Object o) {
+        return false;
+    }
 }
