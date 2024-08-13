@@ -47,11 +47,22 @@ public class StringCollection implements MyCollection {
     }
 
     public void setByIndex(int index, String s) {
-        while (index >= size){
+        while (index >= size) {
             this.add(null);
         }
         for (int i = 0; i < elements.length; i++) {
             elements[index] = s;
         }
+    }
+
+    boolean contains(String s) {
+        if (s instanceof String) {
+            for (int i = 0; i < size; i++) {
+                if (s.equals(elements[i])) {
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 }
