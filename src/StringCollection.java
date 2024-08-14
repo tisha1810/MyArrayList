@@ -1,5 +1,6 @@
 import java.util.Arrays;
 
+
 public class StringCollection implements MyCollection {
     private String[] elements;
     private int size;
@@ -64,5 +65,8 @@ public class StringCollection implements MyCollection {
             }
         }
         return false;
+    }
+    public int size() {
+        return size;
     }
 }

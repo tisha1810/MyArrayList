@@ -11,5 +11,6 @@ public class Runner {
         System.out.println(stringCollection);
         stringCollection.setByIndex(6,"LaLaLa");
         System.out.println(stringCollection);
+        System.out.println(stringCollection.size());
     }
 }

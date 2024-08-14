@@ -1,3 +1,4 @@
+
 public interface MyCollection {
 
     default boolean add(String s) {
@@ -11,4 +12,5 @@ public interface MyCollection {
     default boolean contains(Object o) {
         return false;
     }
+
 }
