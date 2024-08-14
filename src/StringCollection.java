@@ -56,7 +56,7 @@ public class StringCollection implements MyCollection {
         }
     }
 
-    boolean contains(String s) {
+    public boolean contains(String s) {
         if (s instanceof String) {
             for (int i = 0; i < size; i++) {
                 if (s.equals(elements[i])) {

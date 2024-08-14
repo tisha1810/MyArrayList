@@ -12,5 +12,6 @@ public class Runner {
         stringCollection.setByIndex(6,"LaLaLa");
         System.out.println(stringCollection);
         System.out.println(stringCollection.size());
+        System.out.println(stringCollection.contains("Doris"));
     }
 }

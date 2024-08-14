@@ -9,7 +9,7 @@ public interface MyCollection {
         return false;
     }
 
-    default boolean contains(Object o) {
+    default boolean contains(String s) {
         return false;
     }
 
